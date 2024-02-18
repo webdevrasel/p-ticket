@@ -8,7 +8,6 @@
     <!-- Daisy UI  LINK -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-
 </head>
 <body>
     <header class="lg:w-[1220px] m-auto">
@@ -41,6 +40,7 @@
       </div>
     </header>
     <main>
+<!-- Start Banner section -->
       <section class="mt-10">
       <div class="lg:w-[1200px] m-auto  lg:py-[120px] bg-cover bg-center rounded-xl " style="background-image: url(images/banner.png)">
         <div class="pb-10 bg-no-repeat bg-center p-3.5 flex flex-col justify-center items-center gap-5" >
@@ -51,39 +51,111 @@
         </div>
       </div>
       </section>
-
-      <section class="lg:w-[1200px] m-auto  lg:py-[80px] border-black ">
-        <div class="">
-          <h2 class="text-center text-4xl font-bold pb-14">Best offers for you</h2>
-          <div class="flex gap-5 ">
-            <div class="bg-[#FFBF0F] rounded-2xl p-10 flex justify-between w-full">
-              <div class="relative w-[60%] border-r border-dashed border-r-2">
-                <div class="absolute  rounded-full w-16 h-16 bg-[#fff] -mt-20 left-[90%]"></div>
-                <h2>15% OFF</h2>
-                <p>on your next purchase</p>
-                <p>use by January 2024</p>
-                <div class="absolute  rounded-full w-16 h-16 bg-[#fff] mt-4 left-[90%]"></div>
-              </div>
-              <div>
-                <h2 class="text-4xl font-bold">NEW<span>15</span></h2>
-                <p>Coupon Code</p>
-              </div>
+<!-- End Banner Section -->
+<!-- Best offers for you -->
+      <section class="lg:w-[1200px] m-auto  lg:py-[80px]">
+        <h1 class="text-center text-4xl font-bold pb-14">Best offers for you</h1>
+        <div class="flex justify-between gap-5">
+        <!-- 15% OFF -->
+        <div class="w-[50%]">
+          <div class="bg-[#FFBF0F] rounded-2xl p-10 flex gap-10 w-full justify-between">
+            <div class="w-[60%]">
+              <h1 class="text-4xl font-bold ">15% OFF</h1>
+              <p class="text-[20px] font-bold">on your next purchase</p>
+              <p class="text-[18px] font-medium ">use by January 2024</p>
             </div>
-            <div class="bg-[#FFBF0F] rounded-2xl p-10 flex gap-10 w-full">
-              <div>
-                <h2>15% OFF</h2>
-                <p>on your next purchase</p>
-                <p>use by January 2024</p>
-              </div>
-              <div>
-                <h2 class="text-4xl font-bold">NEW<span>15</span></h2>
-                <p>Coupon Code</p>
-              </div>
+            <div class="w-[40%] border-l-2 pl-8">
+              <p class="text-3xl font-bold">NEW15</p>
+              <p class="text-[18px] font-medium">Coupon Code</p>
             </div>
           </div>
         </div>
+        <!-- End 15% OFF  -->
+        <!-- start 20% OFF  -->
+        <div class="w-[50%]">
+          <div class="bg-[#FFBF0F] rounded-2xl p-10 flex gap-10 w-full justify-between">
+            <div class="w-[60%]">
+              <h1 class="text-4xl font-bold ">  20% OFF</h1>
+              <p class="text-[20px] font-bold">on your next purchase</p>
+              <p class="text-[18px] font-medium ">use by January 2024</p>
+            </div>
+            <div class="w-[40%] border-l-2 pl-8">
+              <p class="text-3xl font-bold">Couple 20</p>
+              <p class="text-[18px] font-medium">Coupon Code</p>
+            </div>
+          </div>
+        </div>
+        <!-- End 20% OFF -->
+      </div>
+        <div class="text-center mt-8">
+          <button class="btn border-green-500 bg-[#1cd10008] px-20  font-bold text-[18px] ">See All Offers</button>
+        </div>
       </section>
-
+<!-- Start P.H Paribahan -->
+      <section class="bg-[#F7F8F8]">
+        <div class="lg:w-[1200px] m-auto  lg:pb-[80px]">
+          <div>
+            <!-- heading text and content -->
+            <div class="flex flex-col justify-center items-center">
+              <h1 class="text-center text-4xl font-bold pb-4 pt-20">P.H Paribahan</h1>
+            <p class=" text-center text-black text-[18px] lg:w-[600px]">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+            </div>
+          </div>
+          <!-- start Greenline Paribahan column -->
+          <div class="bg-[#fff] rounded-2xl p-10  mt-10">
+           <div class="flex ">
+            <div class="w-[80%]">
+              <div>
+                <div class=" grid grid-cols-2">
+                  <div class="flex gap-3">
+                    <img src="images/bus-logo.png" alt="">
+                    <div>
+                      <p class="text-2xl font-bold">Greenline Paribahan</p>
+                      <p class="text-[18px] font-medium">Coach-009-WEB ! AC_Business</p>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="text-end">
+                      <a class="btn text-[18px] font-bold px-6 text-[#1DD100] bg-[#1cd1000e] border-[#1DD100] border-spacing-2"><img src="images/seat-green-filled.png" alt=""> 40 Seats left </a>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Start Route column -->
+              <div class="bg-[#F7F8F8] border-emerald-950 p-10 rounded-2xl mt-6 ">
+                <div>
+                  <div class="border-b-2 border-dashed flex justify-between pb-1  ">
+                    <p class="text-[18px] font-medium">Routet</p>
+                    <p class="text-[18px] font-medium">Dhaka - Sylhet</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="border-b-2 border-dashed flex justify-between pb-1 pt-4">
+                    <p class="text-[18px] font-medium">Departure Time</p>
+                    <p class="text-[18px] font-medium">9:00 PM</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex justify-between gap-4 pt-4 ">
+                    <p class="bg-[#a0fce3] rounded-2xl text-[18px] font-medium w-full text-center p-4">Boarding Point - Laxmipur</p>
+                    <p class="bg-[#a0fce3] rounded-2xl text-[18px] font-medium w-full text-center p-4">Dropping Point - Bogura</p>
+                    <p class="bg-[#a0fce3] rounded-2xl text-[18px] font-medium w-full text-center p-4">Est. Time - 11 Hour</p>
+                  </div>
+                </div>
+              </div>
+              <!-- end Route column -->
+            </div>
+            <div class="w-[20%] flex flex-col justify-center items-center">
+              <img src="images/fare.png" alt="">
+              <p class="text-2xl font-bold">550</p>
+              <p class="text-[18px] font-medium">Per Seat</p>
+            </div>
+           </div>
+          </div>
+          <!-- End Greenline Paribahan column -->
+        </div>
+      </section>
+<!-- End P.H Paribahan -->
     </main>
     <footer>
 
